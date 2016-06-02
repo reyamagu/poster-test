@@ -18,6 +18,9 @@ $logFile = './list.txt';
 // POSTデータの保存フラグ true: 保存成功 false: 保存失敗
 $logFlag;
 
+// 保存用データ用の変数
+$logData;
+
 
 /**
  * 添付されたデータを保存する処理
@@ -28,14 +31,24 @@ $uploadFlag = move_uploaded_file($_FILES['datafile']['tmp_name'], $uploadFilePat
  * POSTデータをtxtファイルに保存する処理
  */
 // POSTデータの整形
-$logData = "date: " . $_POST['date']
-		 . " category: " . $_POST['category']
-		 . " memo: " . $_POST['memo']
-		 . " datafile: " . $currentUrl . $uploadFileName
-		 . "\n";
+$data     = $_POST['date'];
+$category = $_POST['category'];
+$memo     = $_POST['memo'];
+
+// ログファイルがなければ、info= を入れる
+// MEMO: サーバーだと動かないかもしれないから不要なら削除
+if (!file_exists($logFile)) {
+	$logData .= 'info=';
+}
+
+$logData .= '<a href="./headline/data/' . $uploadFileName . '" target="_blank">'
+		 . $data . '<font color="#0099ff">｜</font>'
+		 . $category . '<font color="#0099ff">｜</font>'
+		 . $memo . '<font color="#0099ff">≫</font></a><br />';
 
 // ファイルの書き込み
 $logFlag = file_put_contents($logFile, $logData, FILE_APPEND);
+
 
 
 /**

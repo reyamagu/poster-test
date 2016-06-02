@@ -1,5 +1,1 @@
-date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/IPCamera.jpg
-date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/スクリーンショット 2016-06-02 20.51.53.png
-date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/スクリーンショット 2016-06-02 20.51.53.png
-date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/スクリーンショット 2016-06-02 20.51.53.png
-date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/summer_cp.pptx
+info=<a href="./headline/data/summer_cp.pptx" target="_blank">test123<font color="#0099ff">｜</font>A<font color="#0099ff">｜</font>test123<font color="#0099ff">≫</font></a><br /><a href="./headline/data/testimg.png" target="_blank">hogehoge<font color="#0099ff">｜</font>B<font color="#0099ff">｜</font>hogehoge<font color="#0099ff">≫</font></a><br />
