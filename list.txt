@@ -1,1 +1,0 @@
-info=<a href="./headline/data/summer_cp.pptx" target="_blank">test123<font color="#0099ff">｜</font>A<font color="#0099ff">｜</font>test123<font color="#0099ff">≫</font></a><br /><a href="./headline/data/testimg.png" target="_blank">hogehoge<font color="#0099ff">｜</font>B<font color="#0099ff">｜</font>hogehoge<font color="#0099ff">≫</font></a><br />
