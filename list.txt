@@ -1,0 +1,5 @@
+date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/IPCamera.jpg
+date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/スクリーンショット 2016-06-02 20.51.53.png
+date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/スクリーンショット 2016-06-02 20.51.53.png
+date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/スクリーンショット 2016-06-02 20.51.53.png
+date: 20160602 category: A memo: テスト datafile: http://localhost/poster-test/data/summer_cp.pptx
